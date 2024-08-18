@@ -18,6 +18,8 @@
   </head>
 
   <body>
+  <%= tag.div notice if notice %>
+  <%= tag.div alert if alert %>
     <%= yield %>
   </body>
 </html>
