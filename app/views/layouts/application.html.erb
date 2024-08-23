@@ -14,14 +14,20 @@
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/icon.png">
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <!--
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
 
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
+  <main class="container">
   <%= tag.div notice if notice %>
   <%= tag.div alert if alert %>
     <%= yield %>
+  </main>
   </body>
+
+
 </html>
