@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was created by creating a standard Rails 7.2 app
 
 Things you may want to cover:
 
-* Ruby version
+* Added Letter Opener gem in dev
 
-* System dependencies
+* Set Root Path
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Created home controller with index page that has view login for login, signup and logout.
