@@ -2,7 +2,9 @@
 
 This app was created by creating a standard Rails 7.2 app
 
-Things you may want to cover:
+Tasks done after rails new:
+
+* Added ReviseAuth gem
 
 * Added Letter Opener gem in dev
 
