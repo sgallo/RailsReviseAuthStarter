@@ -8,4 +8,4 @@ Things you may want to cover:
 
 * Set Root Path
 
-* Created home controller with index page that has view login for login, signup and logout.
+* Created home controller with index page that has view with links for login, signup and logout.
